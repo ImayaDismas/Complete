@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_name" >
+
+                    <requestFocus />
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_designation"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_name"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/designation_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_designation">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_department"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_designation"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/department_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_department">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_img_url"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_department"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/img_url_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_imageurl">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_dob"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_img_url"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/dob_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_dob">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_height"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_dob"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/height_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_height">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_weight"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_height"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/weight_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_weight">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_allowed_areas"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_weight"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/allowed_areas_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_allowed_areas">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_card_serial"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/input_layout_allowed_areas"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/card_serial_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_card_serial">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/add_user"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:layout_below="@+id/input_layout_card_serial"
+                android:background="@drawable/verifybtn"
+                android:text="@string/add_user" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

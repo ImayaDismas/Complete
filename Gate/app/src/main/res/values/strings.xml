@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gate Keeper</string>
+    <string name="developed"><b><i>Developed by Snergetic Ltd</i></b></string>
+    <string name="set_point">Set Point</string>
+    <string name="exit">Exit</string>
+    <string name="verify">Verify</string>
+    <string name="empty_list_text">Empty</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_designation">Enter Designation</string>
+    <string name="add_user">Add User</string>
+    <string name="enter_department">Enter department</string>
+    <string name="enter_imageurl">Enter image url</string>
+    <string name="enter_dob">Enter DOB</string>
+    <string name="enter_height">Enter height</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="enter_allowed_areas">Enter allowed areas</string>
+    <string name="enter_card_serial">Enter card serial</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="export_users_records">Export records</string>
+    <string name="waiting"><b>Waiting</b></string>
+    <string name="for_card"><b><i>for card</i></b></string>
+    <string name="title_activity_results">Access Granted</string>
+    <string name="title_activity_access_denied">Access Denied</string>
+    <string name="access_denied"><b>ACCESS DENIED</b></string>
+</resources>
